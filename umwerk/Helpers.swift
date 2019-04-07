@@ -11,7 +11,7 @@ import UIKit
 let programmingLanguages = ["Java", "Python", "CSS", "PHP", "Ruby", "C", "Shell", "R", "VimL", "Go", "Perl", "CoffeeScript", "TeX", "Swift", "Scala", "Haskell", "Lua", "Clojure", "Matlab", "Arduino", "Rust", "PowerShell"]
 var currentProgrammingLanguage: String = "Java"
 let apiURL = "https://api.github.com"
-let personalAccessToken = "8b0efaf1ba9b54af48e1a7c43e8d7aef29178231"
+let personalAccessToken = "d4466db00726a93a9df8667cb7c9ff4cfb211153"
 
 struct Service {
     static let shared = Service()
