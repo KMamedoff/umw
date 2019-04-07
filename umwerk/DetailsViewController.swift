@@ -54,6 +54,7 @@ class DetailsViewController: UIViewController, MFMailComposeViewControllerDelega
         }
         if let followers = homeFeedDevelopersData?.followers {
             infoTextView.text += "Followers: " + String(followers) + "\n"
+            followersValue.text = "Followers: " + String(followers)
         }
         if let following = homeFeedDevelopersData?.following {
             infoTextView.text += "Following: " + String(following) + "\n"
